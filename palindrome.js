@@ -13,7 +13,6 @@ function something(x) {
   let string2 = string1.split('').reverse().join('');
 
   console.log(string2);
-
   return console.log(string1===string2);
 }
 
