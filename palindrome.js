@@ -1,6 +1,21 @@
 
 // Create a function that tests if a string is a pallindrome.
 
+/*
+-Added 'input', 'div', 'button' selectors and created event 'onclik()' to enter value
+-Created function 'getValueInput' which get id of two selectors and their value
+
+*/
+
+function getValueInput()
+{
+let inputText = document.getElementById("inputText");
+let outputText = document.getElementById("outputText");
+
+console.log(inputText.value);
+console.log(outputText.innerText);
+something(inputText.value);
+}
 // If you can't think of any strings, try these out:
 let palindrome = "Was it a cat I saw"
 let nonPalindrome = "Hey how are you"
@@ -16,5 +31,6 @@ function something(x) {
   return console.log(string1===string2);
 }
 
-something(palindrome);
-something(nonPalindrome);
+//console.log(inputText.value);
+
+//something(nonPalindrome);
